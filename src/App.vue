@@ -1,6 +1,7 @@
 <script setup>
+import Projects from "./Views/Projects.vue"
 </script>
 
 <template>
-  <p>Hey There!</p>
+  <Projects />
 </template>
