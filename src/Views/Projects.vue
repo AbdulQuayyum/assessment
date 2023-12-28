@@ -8,6 +8,7 @@
             <SEO />
             <Keyword />
             <Structure />
+            <ConnectToWeb />
         </main>
     </div>
 </template>
@@ -20,10 +21,11 @@ import MediaHub from '../Components/MediaHub.vue';
 import SEO from '../Components/SEO.vue';
 import Keyword from '../Components/Keyword.vue';
 import Structure from '../Components/Structure.vue';
+import ConnectToWeb from '../Components/ConnectToWeb.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure }
+    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb }
 
 }
 </script>
