@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="flex flex-row items-center space-x-2">
-                <input type="checkbox" checked class="h-[18px] w-[18px] accent-[#77AEF4]" name="checkbox03" id="checkbox03">
+                <input type="checkbox" checked class="h-[18px] w-[18px] accent-[#77AEF4]" name="checkbox04" id="checkbox04">
                 <label for="checkbox02" class=" text-[#525252] text-[15px] font-[400] leading-[26px]">Use the main keyword to write and insert a meta description in the post. Also releveant keyword will be picked up and added to the meta description.</label>
             </div>
         </div>

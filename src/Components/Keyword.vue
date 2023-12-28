@@ -14,7 +14,7 @@
         </div>
         <div class="flex mt-8">
             <div contenteditable="true" class="relative bg-[#fff] border-[#CBCBCB] border-[1px] py-4 px-6">
-                <div class="flex flex-row flex-wrap space-x-3 space-y-3">
+                <div class="flex flex-row flex-wrap justify-between gap-y-3">
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
                         <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">What do dermatologist
                             prescribe for skin whitening?</span>
