@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#fff] rounded-md mt-4 mx-3 pt-8 pb-10 px-6 flex flex-col">
+    <div class="bg-[#fff] rounded-md mt-4 mx-3 pt-8 pb-10 px-6 flex flex-col shadow-md">
         <div>
             <span class="text-[#384D67] text-[17px] font-[700] leading-8">Header Settings</span>
         </div>
