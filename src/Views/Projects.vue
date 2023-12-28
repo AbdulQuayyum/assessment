@@ -4,6 +4,7 @@
         <main>
             <Header />
             <CoreSettings />
+            <MediaHub />
         </main>
     </div>
 </template>
@@ -12,10 +13,11 @@
 import Navbar from '../Components/Navbar.vue';
 import Header from '../Components/Header.vue';
 import CoreSettings from "../Components/CoreSettings.vue"
+import MediaHub from '../Components/MediaHub.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings }
+    components: { Navbar, Header, CoreSettings, MediaHub }
 
 }
 </script>

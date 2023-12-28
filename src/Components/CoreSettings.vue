@@ -8,18 +8,18 @@
                 <div class="flex flex-col space-y-1">
                     <span
                         class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Language</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[500px]" name="" id="">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[500px]">
                         <option selected>Choose a language</option>
-                        <option value="US">English (US)</option>
-                        <option value="CA">English (UK)</option>
-                        <option value="FR">French</option>
-                        <option value="DE">German</option>
+                        <option value="EUS">English (US)</option>
+                        <option value="EUK">English (UK)</option>
+                        <option value="FFR">French</option>
+                        <option value="GDE">German</option>
                     </select>
                 </div>
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Tone of
                         Voice</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[500px]" name="" id="">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[500px]">
                         <option selected>Choose a tone of voice</option>
                         <option value="friendly">Friendly</option>
                         <option value="notFriendly">Not Friendly</option>
@@ -28,16 +28,16 @@
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Point of
                         View</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[500px]" name="" id="">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[500px]">
                         <option selected>Choose a point of view</option>
-                        <option value="friendly">None</option>
-                        <option value="notFriendly">All</option>
+                        <option value="none">None</option>
+                        <option value="all">All</option>
                     </select>
                 </div>
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Target
                         Country</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[500px]" name="" id="">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[500px]">
                         <option selected>Choose a country</option>
                         <option value="US">United States</option>
                         <option value="CA">Canada</option>
@@ -53,8 +53,7 @@
                             class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Article
                             Size</span>
                         <div class="flex flex-row items-center space-x-5">
-                            <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[300px]" name=""
-                                id="">
+                            <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-[300px]">
                                 <option selected>Choose a size</option>
                                 <option value="xsmall">X-Small</option>
                             </select>
@@ -65,7 +64,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex w-full max-w-[500px]">
+                <div class="flex w-full max-w-full sm:w-[500px]">
                     <span class=" text-[#6B6B6B] text-[13px] font-[400] leading-[20px]">
                         The X-Small article offers short articles or news, ideal for quick updates and capturing immediate
                         interest, ensuring your content remains fresh and timely in the eyes of your audiences.
@@ -84,14 +83,16 @@
                         <span class=" text-[#5D93D9] text-[15px] font-[400] leading-[26px]">Sample 3</span>
                     </div>
                 </div>
-                <div class="flex flex-row space-x-8">
+                <div class="flex flex-row">
                     <div class="flex flex-row items-center space-x-2">
-                        <input type="checkbox" class="h-[15px] w-[15px]" name="checkbox01" id="checkbox01">
-                        <label for="checkbox01" class=" text-[#525252] text-[15px] font-[400] leading-[26px]">Intense mode: to each section, beyond just the entire article.</label>
+                        <input type="checkbox" class="h-[15px] w-[15px] accent-[#77AEF4]" name="checkbox01" id="checkbox01">
+                        <label for="checkbox01" class=" text-[#525252] text-[15px] font-[400] leading-[26px]">Intense mode:
+                            to each section, beyond just the entire article.</label>
                     </div>
                 </div>
                 <div class="flex flex-row space-x-8">
-                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full px-4 py-2" placeholder="e.g. phone number as 267-229-6783" id="" cols="30" rows="4"></textarea>
+                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full px-4 py-2"
+                        placeholder="e.g. phone number as 267-229-6783" cols="30" rows="4"></textarea>
                 </div>
             </div>
         </div>
