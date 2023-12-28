@@ -3,7 +3,7 @@
         <div>
             <span class="text-[#384D67] text-[17px] font-[700] leading-8">Structure</span>
         </div>
-        <div class="flex flex-row flex-wrap justify-between mt-3 gap-y-3">
+        <div class="flex flex-col flex-wrap justify-start w-full mt-3 sm:flex-row gap-x-10 gap-y-3">
             <div class="flex flex-col space-y-1">
                 <span
                     class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Conclusion</span>

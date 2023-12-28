@@ -1,16 +1,18 @@
 <template>
     <div class="flex flex-col py-3 mx-3 mt-4">
-        <div class="flex flex-row items-center justify-between w-full">
-            <div class="flex flex-col items-start space-y-1">
+        <div class="flex flex-col items-center justify-between w-full gap-y-3 lg:flex-row">
+            <div class="flex flex-col items-start w-full space-y-1">
                 <span class="text-[#384D67] text-[17px] font-[700] leading-8">Keywords to include in the text</span>
                 <span class="text-[#525252] text-[15px] font-[400] leading-[26px]">If you do not provide the keywords, we
                     will automatically generate relevant keywords from the main keyword for each section and use them to
                     generate article</span>
             </div>
-            <button
-                class="flex w-[20%] flex-row items-center justify-center space-x-1 bg-[#77AEF4] rounded-md border-[#77AEF4] border-[1px] py-2 px-6">
-                <p class="text-[#FFFFFF] text-[14px] font-[700] leading-8">NLP Keyword Generator</p>
-            </button>
+            <div class="flex justify-end w-full lg:w-[30%]">
+                <button
+                    class="items-center justify-center space-x-1 bg-[#77AEF4] rounded-md border-[#77AEF4] border-[1px] py-2 px-6">
+                    <p class="text-[#FFFFFF] text-[14px] font-[700] leading-8">NLP Keyword Generator</p>
+                </button>
+            </div>
         </div>
         <div class="flex mt-8">
             <div contenteditable="true" class="relative bg-[#fff] border-[#CBCBCB] border-[1px] py-4 px-6">

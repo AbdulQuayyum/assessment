@@ -3,32 +3,32 @@
         <div>
             <span class="text-[#384D67] text-[17px] font-[700] leading-8">Connect to Web</span>
         </div>
-        <div class="flex flex-row space-x-10">
+        <div class="flex flex-col space-x-0 lg:space-x-10 lg:flex-row">
             <div class="flex flex-col mt-3 space-y-5">
-                <div class="flex flex-row space-x-10">
-                    <div class="flex flex-col space-y-1">
+                <div class="flex flex-col space-x-0 sm:space-x-10 sm:flex-row">
+                    <div class="flex flex-col w-full space-y-1 lg:w-fit">
                         <span
                             class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Network</span>
-                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
+                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
                             <option selected>Choose</option>
                             <option value="no">Yes</option>
                             <option value="yes">No</option>
                         </select>
                     </div>
-                    <div class="flex flex-col space-y-1">
+                    <div class="flex flex-col w-full space-y-1 lg:w-fit">
                         <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Source
                             Links</span>
-                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
+                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
                             <option selected>Choose</option>
                             <option value="no">Yes</option>
                             <option value="yes">No</option>
                         </select>
                     </div>
                 </div>
-                <div class="flex flex-col space-y-1">
+                <div class="flex flex-col w-full space-y-1 lg:w-fit">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Search
                         Source</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[500px]">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[500px]">
                         <option selected>Choose</option>
                         <option value="real-time">Real-Time Search Results</option>
                     </select>
@@ -50,39 +50,42 @@
         </div>
         <div class="flex flex-col mt-8 space-y-1">
             <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">URLs</span>
-            <textarea name="" class="border-[#CBCBCB] border-[1px] w-full max-w-[80%] px-4 py-2" placeholder="" cols="30"
-                rows="4"></textarea>
+            <textarea name="" class="border-[#CBCBCB] border-[1px] w-full lg:max-w-[80%] max-w-none px-4 py-2"
+                placeholder="" cols="30" rows="4"></textarea>
         </div>
         <div class="bg-[#fff] rounded-md mt-4 pt-4 pb-10 px-6 flex flex-col w-full shadow-md">
             <div>
                 <span class="text-[#384D67] text-[17px] font-[700] leading-8">Internal Link</span>
             </div>
-            <div class="flex flex-row items-start w-full space-x-10">
-                <div class="flex flex-col space-y-1">
-                    <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Insert
-                        Internal Link</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
-                        <option selected>Choose</option>
-                        <option value="no">Yes</option>
-                        <option value="yes">No</option>
-                    </select>
-                </div>
-                <div class="flex flex-col space-y-1">
-                    <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Number of
-                        Internal Link(s)</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
-                        <option selected>Choose</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
+            <div class="flex flex-col items-start w-full space-x-0 gap-y-3 lg:space-x-10 lg:flex-row">
+                <div class="flex flex-col w-full space-x-0 sm:space-x-10 sm:flex-row">
+                    <div class="flex flex-col w-full space-y-1 lg:w-fit">
+                        <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Insert
+                            Internal Link</span>
+                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
+                            <option selected>Choose</option>
+                            <option value="no">Yes</option>
+                            <option value="yes">No</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col w-full space-y-1 lg:w-fit">
+                        <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Number
+                            of
+                            Internal Link(s)</span>
+                        <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
+                            <option selected>Choose</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="flex flex-col w-full space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Post
                         Links</span>
-                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full max-w-[80%] px-4 py-2" cols="30" rows="4"
+                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full max-w-none lg:max-w-[80%] px-4 py-2" cols="30" rows="4"
                         placeholder="Enter Link per line"></textarea>
                 </div>
             </div>
@@ -92,10 +95,10 @@
                 <span class="text-[#384D67] text-[17px] font-[700] leading-8">Document</span>
             </div>
             <div class="flex flex-row items-end mt-4 space-x-10">
-                <div class="flex flex-col space-y-1">
+                <div class="flex flex-col w-full space-y-1 lg:w-fit">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Save to
                         Directory</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
                         <option selected>Choose</option>
                         <option value="Home">Home</option>
                     </select>
@@ -112,18 +115,22 @@
             <div>
                 <span class="text-[#384D67] text-[17px] font-[700] leading-8">Publish to Wordpress</span>
             </div>
-            <div class="flex flex-row items-start w-full mt-2 space-x-10">
-                <div class="flex flex-col space-y-1">
-                    <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Publication</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full sm:w-[200px]">
+            <div class="flex flex-col items-start w-full mt-2 space-x-0 gap-y-3 md:space-x-10 md:flex-row">
+                <div class="flex flex-col w-full space-y-1 lg:w-fit">
+                    <span
+                        class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Publication</span>
+                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[200px]">
                         <option selected>Choose</option>
                         <option value="no">Yes</option>
                         <option value="yes">No</option>
                     </select>
                 </div>
                 <div class="flex flex-col w-full space-y-1 max-w-[700px]">
-                    <span class="flex flex-row items-center text-[#525252] text-[15px] font-[600] leading-[26px]">Important</span>
-                    <span class="text-[#525252] text-[15px] font-[400] leading-[26px]">If you enable this option, all generated documents will be published on selected site. Be careful with the settings and publication date</span>
+                    <span
+                        class="flex flex-row items-center text-[#525252] text-[15px] font-[600] leading-[26px]">Important</span>
+                    <span class="text-[#525252] text-[15px] font-[400] leading-[26px]">If you enable this option, all
+                        generated documents will be published on selected site. Be careful with the settings and publication
+                        date</span>
                 </div>
             </div>
         </div>

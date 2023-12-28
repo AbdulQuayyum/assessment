@@ -1,7 +1,9 @@
 <template>
     <div class="bg-[#F2F1F9] flex flex-col  min-h-screen mx-auto w-full max-w-[1800px]">
-        <Navbar />
-        <main>
+        <div class="fixed z-50 w-full">
+            <Navbar />
+        </div>
+        <main class="mt-36">
             <Header />
             <CoreSettings />
             <MediaHub />
