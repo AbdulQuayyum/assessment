@@ -6,6 +6,7 @@
             <CoreSettings />
             <MediaHub />
             <SEO />
+            <Keyword />
         </main>
     </div>
 </template>
@@ -16,10 +17,11 @@ import Header from '../Components/Header.vue';
 import CoreSettings from "../Components/CoreSettings.vue"
 import MediaHub from '../Components/MediaHub.vue';
 import SEO from '../Components/SEO.vue';
+import Keyword from '../Components/Keyword.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings, MediaHub, SEO }
+    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword }
 
 }
 </script>
