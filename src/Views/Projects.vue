@@ -5,6 +5,7 @@
             <Header />
             <CoreSettings />
             <MediaHub />
+            <SEO />
         </main>
     </div>
 </template>
@@ -14,10 +15,11 @@ import Navbar from '../Components/Navbar.vue';
 import Header from '../Components/Header.vue';
 import CoreSettings from "../Components/CoreSettings.vue"
 import MediaHub from '../Components/MediaHub.vue';
+import SEO from '../Components/SEO.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings, MediaHub }
+    components: { Navbar, Header, CoreSettings, MediaHub, SEO }
 
 }
 </script>
