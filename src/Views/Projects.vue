@@ -9,6 +9,7 @@
             <Keyword />
             <Structure />
             <ConnectToWeb />
+            <LanguageModel />
         </main>
     </div>
 </template>
@@ -22,10 +23,11 @@ import SEO from '../Components/SEO.vue';
 import Keyword from '../Components/Keyword.vue';
 import Structure from '../Components/Structure.vue';
 import ConnectToWeb from '../Components/ConnectToWeb.vue';
+import LanguageModel from '../Components/LanguageModel.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb }
+    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb, LanguageModel }
 
 }
 </script>
