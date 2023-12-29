@@ -25,63 +25,71 @@
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Dermatologist prescription</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Dermatologist
+                            prescription</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Skin whitening treatment</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Skin whitening
+                            treatment</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Do dermatologist recommend skin whitening products?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Do dermatologist
+                            recommend skin whitening products?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Skin whitening prducts prescribed by dermatologist?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Skin whitening
+                            prducts prescribed by dermatologist?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Prescription medication for skin whitening?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Prescription
+                            medication for skin whitening?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Professional skin whitening treatment?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Professional skin
+                            whitening treatment?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Dermatologist approved skin lightening treatments?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Dermatologist
+                            approved skin lightening treatments?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                     <div class="bg-[#D3E7FF] flex flex-row items-center space-x-2 h-fit rounded-md py-2 px-6">
-                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Tropical skin whitening prescriptions?</span>
+                        <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">Tropical skin
+                            whitening prescriptions?</span>
                         <div>
                             <img src="../assets/cancel.png" class="h-[15px] w-[15px]" alt="cancel icon">
                         </div>
                     </div>
                 </div>
                 <div class="pt-4 pb-10">
-                    <span class="text-[#CBCBCB] text-[15px] font-[400] leading-[20px]">Write some keyword or phrase relevant to your blog, then press Enter or + to add</span>
+                    <span class="text-[#CBCBCB] text-[15px] font-[400] leading-[20px]">Write some keyword or phrase relevant
+                        to your blog, then press Enter or + to add</span>
                 </div>
             </div>
-        </div>
     </div>
-</template>
+</div></template>
 <script>
 export default {
-
+    name: "Keyword"
 }
 </script>

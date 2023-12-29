@@ -92,6 +92,6 @@
 </template>
 <script>
 export default {
-
+    name: "MediaHub"
 }
 </script>

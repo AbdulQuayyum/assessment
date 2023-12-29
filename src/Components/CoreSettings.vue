@@ -8,7 +8,8 @@
                 <div class="flex flex-col space-y-1">
                     <span
                         class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Language</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
+                    <select
+                        class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
                         <option selected>Choose a language</option>
                         <option value="EUS">English (US)</option>
                         <option value="EUK">English (UK)</option>
@@ -19,7 +20,8 @@
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Tone of
                         Voice</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
+                    <select
+                        class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
                         <option selected>Choose a tone of voice</option>
                         <option value="friendly">Friendly</option>
                         <option value="notFriendly">Not Friendly</option>
@@ -28,7 +30,8 @@
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Point of
                         View</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
+                    <select
+                        class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
                         <option selected>Choose a point of view</option>
                         <option value="none">None</option>
                         <option value="all">All</option>
@@ -37,7 +40,8 @@
                 <div class="flex flex-col space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Target
                         Country</span>
-                    <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
+                    <select
+                        class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full max-w-none lg:max-w-[500px]">
                         <option selected>Choose a country</option>
                         <option value="US">United States</option>
                         <option value="CA">Canada</option>
@@ -53,11 +57,13 @@
                             class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Article
                             Size</span>
                         <div class="flex flex-col items-center space-x-0 xl:space-x-5 gap-y-3 xl:flex-row">
-                            <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full xl:w-[300px]">
+                            <select
+                                class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full xl:w-[300px]">
                                 <option selected>Choose a size</option>
                                 <option value="xsmall">X-Small</option>
                             </select>
-                            <div class="bg-[#D3E7FF] flex w-full xl:max-w-xs max-w-none justify-center rounded-md py-3 px-6">
+                            <div
+                                class="bg-[#D3E7FF] flex w-full xl:max-w-xs max-w-none justify-center rounded-md py-3 px-6">
                                 <span class="text-center text-[#718399] text-[13px] font-[400] leading-[26px]">2400-3600
                                     words, 9-12 H2 headings</span>
                             </div>
@@ -100,6 +106,6 @@
 </template>
 <script>
 export default {
-
+    name: "CoreSettings"
 }
 </script>

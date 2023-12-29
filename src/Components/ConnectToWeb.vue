@@ -85,8 +85,8 @@
                 <div class="flex flex-col w-full space-y-1">
                     <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Post
                         Links</span>
-                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full max-w-none lg:max-w-[80%] px-4 py-2" cols="30" rows="4"
-                        placeholder="Enter Link per line"></textarea>
+                    <textarea name="" class="border-[#CBCBCB] border-[1px] w-full max-w-none lg:max-w-[80%] px-4 py-2"
+                        cols="30" rows="4" placeholder="Enter Link per line"></textarea>
                 </div>
             </div>
         </div>
@@ -138,6 +138,6 @@
 </template>
 <script>
 export default {
-
+    name: "ConnectToWeb"
 }
 </script>

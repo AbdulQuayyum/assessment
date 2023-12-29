@@ -4,7 +4,7 @@
             <span class="text-[#384D67] text-[17px] font-[700] leading-8">Language Model</span>
         </div>
         <div class="flex flex-col items-end w-full mt-3 space-x-0 gap-y-3 lg:space-x-10 lg:flex-row">
-                 <div class="flex flex-col w-full space-y-1 lg:w-fit">
+            <div class="flex flex-col w-full space-y-1 lg:w-fit">
                 <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">Quality
                     Type</span>
                 <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[500px]">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="flex flex-col items-end w-full mt-3 space-x-0 gap-y-3 lg:space-x-10 lg:flex-row">
-                 <div class="flex flex-col w-full space-y-1 lg:w-fit">
+            <div class="flex flex-col w-full space-y-1 lg:w-fit">
                 <span class="flex flex-row items-center text-[#525252] text-[15px] font-[400] leading-[26px]">openAI API
                     Key</span>
                 <select class="bg-[#fff] border-[#CBCBCB] border-[1px] py-3 px-4 rounded-md w-full lg:w-[500px]">
@@ -43,6 +43,6 @@
 </template>
 <script>
 export default {
-
+    name: "LanguageModel"
 }
 </script>

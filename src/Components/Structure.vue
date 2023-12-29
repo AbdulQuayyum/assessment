@@ -84,6 +84,6 @@
 </template>
 <script>
 export default {
-
+    name: "Structure"
 }
 </script>
