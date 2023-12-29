@@ -2,7 +2,9 @@
     <div class="flex">
         <Sidebar />
         <div class="flex flex-col w-full">
-            <Navbar />
+            <div class="fixed z-10 w-full">
+                <Navbar />
+            </div>
             <main class="mt-36">
                 <Header />
                 <CoreSettings />
