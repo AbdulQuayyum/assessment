@@ -1,6 +1,6 @@
 <template>
     <aside v-if="isSidebarVisible" class="fixed h-screen z-50 text-white px-3 py-4 bg-[#2B2A3F] w-72">
-        <button @click="hideSidebar" class="flex justify-end w-full">
+        <button @click="toggleSidebar" class="flex justify-end w-full">
             <img src="../assets/whiteCancel.png" class="h-[20px] w-[20px]" alt="cancel icon">
         </button>
         <div class="flex justify-center py-10 mx-6 border-b-[1px] border-[#ccc]">
@@ -47,18 +47,15 @@
     </aside>
 </template>
 <script>
+import { mapGetters, mapActions } from 'vuex';
+
 export default {
     name: 'Sidebar',
-    data() {
-        return {
-            isSidebarVisible: localStorage.getItem('isSidebarVisible') === 'true',
-        };
+    computed: {
+        ...mapGetters(['isSidebarVisible']),
     },
     methods: {
-        hideSidebar() {
-            this.isSidebarVisible = false;
-            localStorage.setItem('isSidebarVisible', 'false');
-        },
+        ...mapActions(['toggleSidebar']),
     },
 };
 </script>

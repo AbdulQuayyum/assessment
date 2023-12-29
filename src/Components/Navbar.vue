@@ -1,7 +1,7 @@
 <template>
     <div class="bg-[#fff] rounded-t-md mt-4 mx-3 py-3 px-6 flex flex-row justify-between">
         <div class="flex flex-row items-center space-x-6">
-            <button @click="openSidebar">
+            <button @click="toggleSidebar">
                 <img src="../assets/menuIcon.png" alt="menu icon">
             </button>
             <div class="flex-row items-center hidden sm:flex">
@@ -44,14 +44,14 @@
         </div>
     </div>
 </template>
+
 <script>
+import { mapActions } from 'vuex';
+
 export default {
     name: "Navbar",
-    emits: ['open-sidebar'],
     methods: {
-        openSidebar() {
-            this.$emit('open-sidebar');
-        },
+        ...mapActions(['toggleSidebar']),
     },
 };
 </script>

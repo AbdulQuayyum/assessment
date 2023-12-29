@@ -1,8 +1,8 @@
 <template>
     <div class="flex">
-        <Sidebar :isSidebarVisible="isSidebarVisible" />
+        <Sidebar />
         <div class="flex flex-col w-full">
-            <Navbar @open-sidebar="openSidebar" />
+            <Navbar />
             <main class="mt-36">
                 <Header />
                 <CoreSettings />
@@ -31,22 +31,6 @@ import LanguageModel from '../Components/LanguageModel.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Sidebar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb, LanguageModel },
-    data() {
-        return {
-            isSidebarVisible: localStorage.getItem('isSidebarVisible') === 'true',
-        };
-    },
-    methods: {
-        openSidebar() {
-            this.isSidebarVisible = true;
-            localStorage.setItem('isSidebarVisible', 'true');
-        },
-    },
-    watch: {
-        isSidebarVisible(newValue) {
-            this.$nextTick(() => { });
-        },
-    },
+    components: { Navbar, Sidebar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb, LanguageModel }
 }
 </script>
