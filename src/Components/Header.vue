@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-[#fff] rounded-md mt-4 mx-3 pt-8 pb-10 px-6 flex flex-col shadow-md">
+    <div class="header-container">
         <div>
-            <span class="text-[#384D67] text-[17px] font-[700] leading-8">Header Settings</span>
+            <span class="main-text">Header Settings</span>
         </div>
-        <div class="flex flex-row items-center mt-3 space-x-3">
+        <div class="header-sub-container">
             <div class="flex flex-col items-start justify-start w-full space-y-2">
                 <div class="flex flex-row justify-between w-full sm:max-w-[70%] max-w-none">
                     <span class="flex flex-row items-center text-[#525252] text-[14px] font-[400] leading-[26px]">Main
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-row items-center mt-5 space-x-3">
+        <div class="header-sub-container">
             <div class="flex flex-col items-start justify-start w-full space-y-2">
                 <div class="flex flex-row justify-between w-full  sm:max-w-[70%] max-w-none">
                     <span class="flex flex-row items-center text-[#525252] text-[14px] font-[400] leading-[26px]">Title <p
@@ -45,3 +45,45 @@ export default {
     name: "Header"
 }
 </script>
+
+<style lang="less">
+@mobile-screen: 640px;
+@tablet-screen: 768px;
+@large-screen: 1024px;
+@larger-screen: 1280px;
+
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.header-sub-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.header-sub-container>*+* {
+    margin-left: 12px;
+}
+
+.main-text {
+    line-height: 32px;
+    color: #384D67;
+    color: 17px;
+    font-weight: 700;
+}
+</style>

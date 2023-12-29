@@ -1,7 +1,7 @@
 <template >
     <div class="bg-[#fff] rounded-md mt-6 mx-3 pt-8 pb-10 px-6 flex flex-col shadow-md">
         <div>
-            <span class="text-[#384D67] text-[17px] font-[700] leading-8">Media Hub</span>
+            <span class="main-text">Media Hub</span>
         </div>
         <div class="flex flex-col w-full space-y-5">
             <div class="flex flex-col items-center w-full mt-5 space-x-0 lg:space-x-5 gap-y-3 lg:flex-row">

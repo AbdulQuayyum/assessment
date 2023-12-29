@@ -2,7 +2,7 @@
     <div class="flex flex-col py-3 mx-3 mt-4">
         <div class="flex flex-col items-center justify-between w-full gap-y-3 lg:flex-row">
             <div class="flex flex-col items-start w-full space-y-1">
-                <span class="text-[#384D67] text-[17px] font-[700] leading-8">Keywords to include in the text</span>
+                <span class="main-text">Keywords to include in the text</span>
                 <span class="text-[#525252] text-[15px] font-[400] leading-[26px]">If you do not provide the keywords, we
                     will automatically generate relevant keywords from the main keyword for each section and use them to
                     generate article</span>

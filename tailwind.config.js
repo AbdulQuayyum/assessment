@@ -8,5 +8,12 @@ export default {
     extend: {},
   },
   plugins: [],
+  css: {
+    loaderOptions: {
+      less: {
+        javascriptEnabled: true,
+      },
+    },
+  },
 }
 

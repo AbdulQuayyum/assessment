@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col py-3 mx-3 mt-4">
         <div>
-            <span class="text-[#384D67] text-[17px] font-[700] leading-8">Core Settings</span>
+            <span class="main-text">Core Settings</span>
         </div>
         <div class="flex flex-col w-full space-x-0 lg:space-x-10 lg:flex-row">
             <div class="flex flex-col w-full mt-3 space-y-5">
