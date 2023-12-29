@@ -1,23 +1,25 @@
 <template>
-    <div class="bg-[#F2F1F9] flex flex-col  min-h-screen mx-auto w-full max-w-[1800px]">
-        <div class="fixed z-50 w-full">
-            <Navbar />
+    <div class="flex">
+        <Sidebar :isSidebarVisible="isSidebarVisible" />
+        <div class="flex flex-col w-full">
+            <Navbar @open-sidebar="openSidebar" />
+            <main class="mt-36">
+                <Header />
+                <CoreSettings />
+                <MediaHub />
+                <SEO />
+                <Keyword />
+                <Structure />
+                <ConnectToWeb />
+                <LanguageModel />
+            </main>
         </div>
-        <main class="mt-36">
-            <Header />
-            <CoreSettings />
-            <MediaHub />
-            <SEO />
-            <Keyword />
-            <Structure />
-            <ConnectToWeb />
-            <LanguageModel />
-        </main>
     </div>
 </template>
 <script>
 
 import Navbar from '../Components/Navbar.vue';
+import Sidebar from '../Components/Sidebar.vue';
 import Header from '../Components/Header.vue';
 import CoreSettings from "../Components/CoreSettings.vue"
 import MediaHub from '../Components/MediaHub.vue';
@@ -29,7 +31,22 @@ import LanguageModel from '../Components/LanguageModel.vue';
 
 export default {
     name: "Projects",
-    components: { Navbar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb, LanguageModel }
-
+    components: { Navbar, Sidebar, Header, CoreSettings, MediaHub, SEO, Keyword, Structure, ConnectToWeb, LanguageModel },
+    data() {
+        return {
+            isSidebarVisible: localStorage.getItem('isSidebarVisible') === 'true',
+        };
+    },
+    methods: {
+        openSidebar() {
+            this.isSidebarVisible = true;
+            localStorage.setItem('isSidebarVisible', 'true');
+        },
+    },
+    watch: {
+        isSidebarVisible(newValue) {
+            this.$nextTick(() => { });
+        },
+    },
 }
 </script>

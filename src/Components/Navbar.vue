@@ -1,9 +1,9 @@
 <template>
     <div class="bg-[#fff] rounded-t-md mt-4 mx-3 py-3 px-6 flex flex-row justify-between">
         <div class="flex flex-row items-center space-x-6">
-            <div>
+            <button @click="openSidebar">
                 <img src="../assets/menuIcon.png" alt="menu icon">
-            </div>
+            </button>
             <div class="flex-row items-center hidden sm:flex">
                 <input type="text" class="bg-[#F5F4FA] border-[#F5F4FA] border-[1px] py-2 px-4 rounded-s-md"
                     placeholder="My Workspace">
@@ -46,6 +46,12 @@
 </template>
 <script>
 export default {
-
-}
+    name: "Navbar",
+    emits: ['open-sidebar'],
+    methods: {
+        openSidebar() {
+            this.$emit('open-sidebar');
+        },
+    },
+};
 </script>
